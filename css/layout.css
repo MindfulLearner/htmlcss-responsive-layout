@@ -1,3 +1,14 @@
+/* INSERIRE ALIGNER QUANDO SERVE SUI CONTAINER IN INDEX */
+.aligner{
+  margin: 0 auto;
+  width: 85%;
+}
+
+.aligner--cards{
+  margin: 0 auto;
+  width: 85%;
+}
+
 /* *********************************** */
 /************* HEADER LAYOUT ***********/
 /* *********************************** */
@@ -5,31 +16,23 @@
 /* HEADER 576px */
 
 header {
-  background-color: rgb(0, 106, 255);
-  display: flex;
-  align-items: center;
-  min-height: 70px;
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: #5588ff;
 }
-
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.header__container.aligner{
-  margin: 0 auto;
-  width: 85%;
-}
-
 .header__logo {
-  height: 50px;
-  display: flex;
+    height: 50px;
+    display: flex;
 }
-
 .header__menu {
-    display: none; 
-  }
+    display: none;
+}
 
 /* *********************************** */
 /* ********** HERO POST HEADER ******* */
@@ -37,29 +40,36 @@ header {
 
 /* Hero Container */
 .herocontainer {
-  /* Stili per il contenitore principale */
+  min-height: 600px;
 }
 
 /* Cards Container */
 .cards {
-  /* Stili per il contenitore delle card */
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards__card.cards__card--two-thirds{
+  min-height: 400px;
 }
 
 /* Card */
 .cards__card {
-  /* Stili per la singola card */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #99ccff;
 }
 
-/* Interno di una Card con Titolo, Paragrafo, Bottone e Container Immagine */
+/* Image Container */
 .card__image-container {
-  /* Stili per il contenitore dell'immagine */
+  width: 80%;
 }
 
 .card__image {
-  /* Stili per l'immagine */
+  width: 100%;
 }
 
-/* Card con Font Awesome Icon */
-.card--icon {
-  /* Stili per la card con icona */
-}

@@ -1,4 +1,33 @@
 /* *********************************** */
+/************* FONT SETUP ***********/
+/* *********************************** */
+
+
+p {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+button {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.italic {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* *********************************** */
 /************* HEADER TEXT ***********/
 /* *********************************** */
 
@@ -27,12 +56,7 @@
     /* Stili per il bottone della card */
 }
 
-/* Titolo della Card con Icona */
-.card--icon__title {
-    /* Stili per il titolo della card con icona */
-}
-
-/* Paragrafo della Card con Icona */
-.card--icon__paragraph {
-    /* Stili per il paragrafo della card con icona */
+/* Icona della Card */
+.cards__card i {
+    /* Stili per l'icona Font Awesome */
 }
