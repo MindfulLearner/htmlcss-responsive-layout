@@ -1,0 +1,38 @@
+/* *********************************** */
+/************* HEADER TEXT ***********/
+/* *********************************** */
+
+.header__hamburger-menu {
+    color: white;
+    font-size: 33PX;
+  }
+
+
+/* *********************************** */
+/* ********** HERO POST TEXT******* */
+/* *********************************** */
+
+/* Titolo della Card */
+.card__title {
+    /* Stili per il titolo della card */
+}
+
+/* Paragrafo della Card */
+.card__paragraph {
+    /* Stili per il paragrafo della card */
+}
+
+/* Bottone della Card */
+.card__button {
+    /* Stili per il bottone della card */
+}
+
+/* Titolo della Card con Icona */
+.card--icon__title {
+    /* Stili per il titolo della card con icona */
+}
+
+/* Paragrafo della Card con Icona */
+.card--icon__paragraph {
+    /* Stili per il paragrafo della card con icona */
+}
