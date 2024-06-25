@@ -154,3 +154,33 @@ button {
 body > div.main-container > div > div.content-block > p {
     font-size: larger;
 }
+
+/* Typo */
+
+.sezionecarte__title {
+    color: white;
+  }
+  
+  .sezionecarte__card-title {
+    font-size: xxx-large;
+    color: #9792e4;
+  }
+  
+  .sezionecarte__card-subtitle {
+    color: #9792e4;
+}
+
+  .sezionecarte__card-paragraph {
+    font-size: small;
+  }
+  
+  .sezionecarte__card-button-container {
+    padding: 10px 20px;
+    background-color: #9792e4; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 76px;
+  }
+

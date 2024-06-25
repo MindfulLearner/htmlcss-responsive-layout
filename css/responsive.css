@@ -46,6 +46,21 @@
     .person-container {    
         flex-direction: row;
         }
+    body > div.main-container > div > div.person-container_container > div{
+        gap: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .sezionecarte__cards-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sezionecarte__card {
+        width: calc((100% / 2) - 10px);
+    }
 
 }
     
@@ -59,6 +74,10 @@
     .aligner {
         margin: 0 auto;
         width: 60%;
+    }
+
+    .person-container__info-block.aligner {
+        width: auto;
     }
 
     /* *********************************** */
@@ -119,7 +138,17 @@
     /* *********************************** */
     /* *** TESTIMONIALS ************ */
     /* *********************************** */
+    .sezionecarte__card {
+        width: calc((100% / 3) - 13.4px);
 
+    }
+
+    .sezionecarte__cards-container.aligner {
+        width: auto;
+}
+.sezionecarte__title {
+    font-size: xx-large;
+}
 
 }
 
