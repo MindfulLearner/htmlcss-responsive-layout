@@ -184,3 +184,22 @@ body > div.main-container > div > div.content-block > p {
     width: 76px;
   }
 
+  .aboutus__title {
+    color: #9792e4;
+}
+
+
+
+.aboutus__subtitle {
+    color: #9792e4;
+}
+
+.aboutus__button {
+    padding: 10px 20px;
+    background-color: #9792e4; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 200px;
+}

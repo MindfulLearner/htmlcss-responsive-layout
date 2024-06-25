@@ -62,6 +62,15 @@
         width: calc((100% / 2) - 10px);
     }
 
+    .aboutus__container {
+        flex-direction: row;
+    }
+
+    .aboutus__section {
+        justify-content: center;
+        align-items: center;
+    }
+
 }
     
 
@@ -148,6 +157,10 @@
 }
 .sezionecarte__title {
     font-size: xx-large;
+}
+
+body > div.aboutus > div > div:nth-child(1) {
+    justify-content: space-between;
 }
 
 }

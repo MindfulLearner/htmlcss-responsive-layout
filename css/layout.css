@@ -181,9 +181,6 @@ body > header > div > nav > ul > li5 > a {
   padding-bottom: 30px;
 }
 
-.main-container__inner {
-  /* Stili per il contenitore interno principale */
-}
 
 .content-block {
   display: flex;
@@ -283,9 +280,47 @@ body > header > div > nav > ul > li5 > a {
 
 
      /* *********************************** */
-    /* ********** STRATEGIC PLANNING ******* */
+    /* ********** ABOUT US ******* */
     /* *********************************** */
+    .aboutus {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .aboutus__container {
+      display:flex ;
+      flex-direction: column;
+      gap: 20px;
 
+    }
+    
+    .aboutus__section {
+      display:flex ;
+      flex-direction: column;
+      gap: 30px;
+    }
+    
+    .aboutus__img-container-position {
+      
+      width: 150px;
+      height: 150px;
+      position: relative;
+    }
+    
+    .aboutus__img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    body > div.aboutus > div > div:nth-child(2) > div > div > i {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      color: #8e87f0;
+      font-size: xxx-large;
+    }
 
      /* *********************************** */
     /* ********** STRATEGIC PLANNING ******* */
