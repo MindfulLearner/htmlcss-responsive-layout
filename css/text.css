@@ -2,6 +2,11 @@
 /************* FONT SETUP ***********/
 /* *********************************** */
 
+a {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 p {
     font-family: "PT Sans", sans-serif;
@@ -43,20 +48,64 @@ button {
 
 /* Titolo della Card */
 .card__title {
-    /* Stili per il titolo della card */
+    color: #5588ff;
 }
 
 /* Paragrafo della Card */
 .card__paragraph {
-    /* Stili per il paragrafo della card */
+    color: #333333;
+    text-align: center;
 }
+
+.cards__card > .cards__card--text > .card__paragraph {
+    text-align: left;
+    }
 
 /* Bottone della Card */
 .card__button {
-    /* Stili per il bottone della card */
+    width: 66%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    gap: 10px;
+}
+.card__button i{
+    font-size: large;
 }
 
 /* Icona della Card */
-.cards__card i {
-    /* Stili per l'icona Font Awesome */
+.cards__card > i {
+    font-size: 60px;
+    color: #5588ff;
+}
+
+
+ /* *********************************** */
+    /* ********** STRATEGIC PLANNING ******* */
+    /* *********************************** */
+    
+.section-container__title {
+  }
+  
+  .section-container__text {
+  }
+  
+  .section-container__icon {
+  }
+  
+
+.section-container__container--white-text .section-container__title,
+.section-container__container--white-text .section-container__text {
+  color: white;
+}
+
+.section-container__container--black-text .section-container__title,
+.section-container__container--black-text .section-container__text {
+  color: black;
 }

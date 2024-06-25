@@ -4,11 +4,6 @@
   width: 85%;
 }
 
-.aligner--cards{
-  margin: 0 auto;
-  width: 85%;
-}
-
 /* *********************************** */
 /************* HEADER LAYOUT ***********/
 /* *********************************** */
@@ -32,7 +27,41 @@ header {
 }
 .header__menu {
     display: none;
+    width: 50%;
 }
+
+body > header > div > nav > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header__menu ul > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body > header > div > nav > ul * a{
+  text-decoration: none;
+  color: white;
+}
+
+li5 {
+    width: 31%;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    gap: 10px;
+}
+
+body > header > div > nav > ul > li5 > a {
+  color: #100f0f;
+}
+
 
 /* *********************************** */
 /* ********** HERO POST HEADER ******* */
@@ -49,19 +78,42 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.cards__card > .cards__card--text {
+    display: flex;
+    flex-direction: column;
+    background-color: #99ccff;
+    gap: 25px;
+    border-radius: 20px;
+    
 }
 
 .cards__card.cards__card--two-thirds{
   min-height: 400px;
+  padding-bottom: 0;
 }
 
 /* Card */
 .cards__card {
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
+  background-color: #99ccff;
+  gap: 25px;
+  border-radius: 20px;
+}
+
+.cards__card > * {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #99ccff;
 }
 
 /* Image Container */
@@ -73,3 +125,25 @@ header {
   width: 100%;
 }
 
+ /* *********************************** */
+    /* ********** STRATEGIC PLANNING ******* */
+    /* *********************************** */
+.section-container--backgroundcolor{
+  background-color: #c8b6ff ;
+}
+
+.section-container  {
+}
+
+.section-container__container {
+}
+
+.section-container__img-container {
+}
+
+.section-container__img-container img{
+  width: 100%;
+}
+
+.section-container__content-container {
+}

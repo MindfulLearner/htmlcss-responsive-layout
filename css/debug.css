@@ -4,30 +4,11 @@
 /* ********** DEBUGGER JOSH HERO********** */
 /* *********************************** */
 
-.debug > .herocontainer {
+* {
     border: 1px dashed black;
-    /* Stili per il contenitore principale */
-}
+  }
 
-.debug > .herocontainer > .cards {
-    border: 1px dashed black;
-    /* Stili per il contenitore delle card */
-}
-
-.debug > .herocontainer > .cards > .cards__card {
-    border: 1px dashed black;
-    /* Stili per la singola card */
-}
-
-.debug > .herocontainer > .cards > .cards__card > .card__image-container {
-    border: 1px dashed black;
-    /* Stili per il contenitore dell'immagine */
-}
-
-.debug > .herocontainer > .cards > .cards__card > .card__image-container > .card__image {
-    border: 1px dashed black;
-    /* Stili per l'immagine */
-}
-
-
+ /* *********************************** */
+    /* ********** DEBUGGER PLANNING ******* */
+    /* *********************************** */
 

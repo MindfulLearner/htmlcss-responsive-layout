@@ -3,3 +3,93 @@
 /* *********************************** */
 /* ********** RESPONSIVE SWAG ******* */
 /* *********************************** */
+
+@media screen and (min-width: 576px) {
+
+    /* *********************************** */
+    /* ********** HERO POST HEADER ******* */
+    /* *********************************** */
+
+
+    .cards__card.cards__card--two-thirds  {
+        width: calc((100% / 3* 2) - 6.5px);
+    }
+    .cards__card.cards__card--one-thirds{
+        width: calc((100% / 3) - 13.5px);
+        flex-grow: 1;
+    }
+
+    
+    .header__hamburger-menu {
+        display: none;
+    }
+    .header__menu {
+        display: block;
+    }
+
+    .card__image {
+        width: 239px;
+    }
+
+    .header__menu {
+        width: 60%;
+    }
+
+}
+    
+
+
+
+@media screen and (min-width: 1476px) {
+
+    /* *********************************** */
+    /* ********** HERO POST HEADER ******* */
+    /* *********************************** */
+
+    .herocontainer > .cards > .cards__card > .card__image-container {
+        width: 100%;
+    }
+
+    .card__image {
+        width: 239px;
+    }
+
+    .aligner {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .cards__card.cards__card--two-thirds {
+        flex-direction: row;
+        min-height: 312px;
+    }
+
+    .card__image-container{
+        align-items: end;
+    }
+
+    .cards__card > .cards__card--text {
+        width: 100%;
+    }
+
+    .cards__card > .cards__card--text > .card__title {
+        width: 244px;
+    }
+
+    .cards__card > .cards__card--text > .card__paragraph {
+        width: 244px;
+    }
+
+
+    .cards__card > .cards__card--text {
+        justify-content: normal;
+        align-items: normal;
+        padding-left: 20px;
+    }
+
+     /* *********************************** */
+    /* *** RESPONSIVE STRATEGICPLANNING *** */
+    /* *********************************** */
+
+ 
+}

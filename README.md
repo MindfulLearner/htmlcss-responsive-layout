@@ -12,3 +12,17 @@ Partiamo sempre dall'individuare il layout generale e poi iniziamo dall'alto ver
 
 ## Parte "complicata":
 2/3 colonne
+
+## MEGAPROBLEMA.
+in query media 576 px, il layout calcoli stranissimi
+    .cards__card.cards__card--two-thirds  {
+        width: calc((100% / 3* 2) - 6.5px);
+    }
+    .cards__card.cards__card--one-thirds{
+        width: calc((100% / 3) - 13.5px);
+        flex-grow: 1;
+    }
+    Funziona funziona. fa cagare pero.
+    
+
+    
