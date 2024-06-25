@@ -129,21 +129,121 @@ body > header > div > nav > ul > li5 > a {
     /* ********** STRATEGIC PLANNING ******* */
     /* *********************************** */
 .section-container--backgroundcolor{
-  background-color: #c8b6ff ;
+  background-color: #9593e6 ;
 }
 
 .section-container  {
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
-.section-container__container {
+.section-container__container:first-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 20px ;
 }
 
-.section-container__img-container {
+.section-container__content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-container__container:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 50px;
+}
+
+.section-container__container:nth-of-type(2) .section-container__content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-container__img-container img{
   width: 100%;
 }
 
-.section-container__content-container {
+ /* *********************************** */
+    /* ********** COMMITED PARTNERS ******* */
+    /* *********************************** */
+
+.main-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+.main-container__inner {
+  /* Stili per il contenitore interno principale */
+}
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.person-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #9593e6;
+  border-radius: 50px;
+}
+
+.person-container__image-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.person-container__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person-container__info-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  text-align: center;
+  gap: 20px;
+}
+
+.person-container_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+     /* *********************************** */
+    /* ********** STRATEGIC PLANNING ******* */
+    /* *********************************** */
+
+
+     /* *********************************** */
+    /* ********** STRATEGIC PLANNING ******* */
+    /* *********************************** */
+
+
+     /* *********************************** */
+    /* ********** STRATEGIC PLANNING ******* */
+    /* *********************************** */

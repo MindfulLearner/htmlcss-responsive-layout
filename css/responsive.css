@@ -35,12 +35,31 @@
         width: 60%;
     }
 
+    .section-container__img-container {
+        width: 390px;
+      }
+
+    /* *********************************** */
+    /* *** TESTIMONIALS ************ */
+    /* *********************************** */
+
+    .person-container {    
+        flex-direction: row;
+        }
+
 }
     
 
 
 
 @media screen and (min-width: 1476px) {
+   /* *********************************** */
+    /* ********** GLBOAL RESET ******* */
+    /* *********************************** */
+    .aligner {
+        margin: 0 auto;
+        width: 60%;
+    }
 
     /* *********************************** */
     /* ********** HERO POST HEADER ******* */
@@ -54,10 +73,6 @@
         width: 239px;
     }
 
-    .aligner {
-        margin: 0 auto;
-        width: 60%;
-    }
 
     .cards__card.cards__card--two-thirds {
         flex-direction: row;
@@ -91,5 +106,23 @@
     /* *** RESPONSIVE STRATEGICPLANNING *** */
     /* *********************************** */
 
- 
+    .section-container {
+        display: flex;
+    }
+    .section-container__container:nth-of-type(2) {
+        margin-top: 100px;
+    }
+
+    .section-container__container:nth-of-type(1){
+        justify-content: space-between;
+    }
+    /* *********************************** */
+    /* *** TESTIMONIALS ************ */
+    /* *********************************** */
+
+
 }
+
+
+
+    
