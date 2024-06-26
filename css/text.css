@@ -203,3 +203,52 @@ body > div.main-container > div > div.content-block > p {
     cursor: pointer;
     width: 200px;
 }
+
+
+.get-started__subtitle {
+    color: white;
+    font-size: 1.2em;
+}
+
+.get-started__title {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+}
+
+.get-started__main-title {
+    font-size: 4em;
+    font-weight: bold;
+    color: #DAA520;
+}
+
+.get-started__paragraph {
+    font-size: 1em;
+    color: white;
+    width: 329px;
+}
+
+.get-started__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #9792e4; 
+    text-align: center;
+    border: 1px solid #9792e4;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+.get-started__copyright {
+    font-size: 0.8em;
+    color: #b1b1b1;
+}
+
+.footer__paragraph {
+    font-size: 1em;
+    width: 329px;
+    color: white;
+}

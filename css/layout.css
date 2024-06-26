@@ -323,5 +323,34 @@ body > header > div > nav > ul > li5 > a {
     }
 
      /* *********************************** */
-    /* ********** STRATEGIC PLANNING ******* */
+    /* ********** FOOTOR******* */
     /* *********************************** */
+
+    .get-started {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: #9792e4;
+  }
+  
+    .get-started__inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    
+
+    .footer {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: #333333;
+
+    }
+    
+    .footer__inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 40px;
+    }
